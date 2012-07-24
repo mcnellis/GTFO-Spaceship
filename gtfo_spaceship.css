@@ -481,19 +481,29 @@ div#header div#alerts .alertbar.blend a {
 ul#userinfo_major {
 }
 /* floating right would be easier but then icons would be reversed and i dont feel like reworking my sprites */
-ul#userinfo_major li#nav_donate a {
+ul#userinfo_major li#nav_store a {
     position: absolute;
     right: 0;
     top:0;
     display: block;
-    background: transparent url("images/much-luv.png") no-repeat scroll 0 0;
+    background: transparent url("images/swag-swag-swag.png") no-repeat scroll 0 0;
     width: 24px;
+    height: 30px;
+    text-indent: -9999px;
+}
+ul#userinfo_major li#nav_donate a {
+    position: absolute;
+    right: 30px;
+    top:0;
+    display: block;
+    background: transparent url("images/much-luv.png") no-repeat scroll 0 0;
+    width: 32px;
     height: 30px;
     text-indent: -9999px;
 }
 ul#userinfo_major li#nav_invite a {
     position: absolute;
-    right: 33px;
+    right: 68px;
     top:0;
     display: block;
     background: transparent url("images/yo-dawg-i-heard-you-like-cds.png") no-repeat scroll 0 0;
@@ -503,7 +513,7 @@ ul#userinfo_major li#nav_invite a {
 }
 ul#userinfo_major li#nav_upload a {
     position: absolute;
-    right: 80px;
+    right: 115px;
     top:0;
     display: block;
     background: transparent url("images/icanhaztm.png") no-repeat scroll 0 0;
